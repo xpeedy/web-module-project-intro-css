@@ -46,3 +46,27 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
+html{
+    font-family: 'Roboto Mono', monospace;
+}
+h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 400%;
+}
+header img {
+    border-radius: 50%;
+    width: 22%;
+    height: 22%;
+}
+.img-container img {
+    width: 9%;
+    height: 9%;
+    
+}
+body {
+    text-align:center;
+}
