@@ -52,21 +52,118 @@ table {
 
 html{
     font-family: 'Roboto Mono', monospace;
-}
-h1 {
-    font-family: 'Chelsea Market', cursive;
-    font-size: 400%;
-}
-header img {
-    border-radius: 50%;
-    width: 22%;
-    height: 22%;
-}
-.img-container img {
-    width: 9%;
-    height: 9%;
     
 }
 body {
+    
+    margin: 2%;
+}
+nav a{
+    text-decoration: none;
+    border-radius: 10%;
+    position: relative;
+    
+    display: inline-block;
+    width: 15rem;
+    height: 5rem;
+    margin: 2rem 14rem -1rem 2rem;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+   
+}    
+nav {
+   
+    
+}
+.button1 {
+    background-color: #FF764E;
+}
+.button2 {
+    background-color: #5ED3EB;
+}
+.button3 {
+    background-color: #FFCD69;
+    position: relative;
+    bottom:2rem;
+}
+h1 {
+    font-family: 'Chelsea Market',cursive;
+    font-size: 6rem;
+    position: relative;
+    left: 10rem;
+    bottom: 10rem;
+}   
+header p{
+    position: relative;
+    bottom: 10rem;
+    left: 33rem;
+    padding: 4rem;
+    font-size: 32px;
+    width: 60rem;
+    
+    
+    
+}
+header img {
+    border-radius: 50%;
+    display: inline-block;
+    width: 30%;
+    height: 15%;
+    position: relative;
+    right: 40rem;
+    top:100px;
+}
+.img-container img {
+    width: 10%;
+    height: 10%;
+}
+.img-container {
+    margin: 3rem;
+}
+   
+
+body {
     text-align:center;
+}
+#main-text {
+    background-color:#DDB9A3;
+    color: white;
+    font-size: 2.3rem;
+    display: inline-block;
+    width: 105rem;
+    height: 15rem;
+    
+}
+#text1 {
+    width: 20rem;
+    position: relative;
+    left: 43rem;
+    font-size: 20px;
+    margin: 1rem;
+}
+#text2 {
+    width: 20rem;
+    position: relative;
+    left: 43rem;
+    font-size: 20px;
+    margin: 1rem 0rem 8rem 0rem; 
+}
+footer nav{
+    position: relative;
+    bottom: 20rem;
+    background-color: #F9E7DC;
+    padding: 4rem;
+    width: 112rem;
+}
+
+footer img{
+    height: 40rem;
+    width: 120rem;
+    padding: 4rem;
+    position: relative;
+    right:4rem;
+}
+span {
+    font-weight: bold;
 }
